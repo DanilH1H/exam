@@ -4,7 +4,7 @@ class Program
     static void Main()
     {
         int[] numbers = { 1, 2, 3, 4, 5 };
-        bool containsThree = false;
+        bool containsThree = false;//проверяем если число 3 
         for (int i = 0; i < numbers.Length; i++)
         {
             if (numbers[i] == 3)
@@ -13,6 +13,6 @@ class Program
                 break;
             }
         }
-        Console.WriteLine(containsThree);
+        Console.WriteLine(containsThree);// результат true
     }
 }
